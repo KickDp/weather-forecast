@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App Project JavaScript </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="back">
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g., Hyderabad, chennai, vizag">
+        <button class="search-btn" id="search">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn" id="current-location">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>Location</h2>
+            <h6>Temperature: 0°C</h6>
+            <h6>Wind: 0 M/S</h6>
+            <h6>Humidity: 0%</h6>
+          </div>
+        </div>
+        <div class="days-forecast" id="cards">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <!-- list of 5days weather card-->
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div> 
+  </body>
+</html>
